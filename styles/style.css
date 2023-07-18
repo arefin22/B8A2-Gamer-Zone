@@ -69,3 +69,63 @@ nav {
     background: rgba(11, 2, 35, 0.10);
     padding: 1rem 2rem;
 }
+
+/* cover section Starts Here */
+.cover {
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+    height: 43.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 15rem;
+}
+
+.cover-contents h3 {
+    color: #0B0223;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 0.7rem;
+}
+
+.cover-contents h1 {
+    text-align: left;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 0.7rem;
+}
+
+.cover-items {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 1rem;
+}
+
+.cover-items p,
+.cover-contents a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.cover-contents a {
+    padding: 1.31rem 2.5rem;
+    border-radius: 48px;
+    background:  #FF42A5;
+    color: #FFFFFF;
+    margin-right: 24px;
+}
+.content-buttons{
+    padding-top: 40px;
+}
