@@ -275,20 +275,21 @@ nav {
 
 /* Category Section Style */
 .categories {
-    padding: 9rem 15rem;
+    padding: 9rem 0;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
-.categories-1,
-.categories-2 {
+.categories-1 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 20px;
 }
 
 .category {
+    flex: 0 0 calc(15% - 10px);
+    margin: 5px;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -374,102 +375,6 @@ footer>.logo>h3 {
 
 
 
-
-
-/* @media screen and (max-width: 425px) {
-
-    nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .menu {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .cover {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .cover-img {
-        max-width: 425px;
-    }
-
-    .cover-img img {
-        position: absolute;
-        top: 350px;
-        left: -0px;
-        width: 100%;
-    }
-
-    .cover-contents {
-        position: relative;
-        top: 200px;
-    }
-
-    .cover-contents h3 {
-        color: #0B0223;
-        text-align: left;
-        font-size: 38px;
-        font-weight: 600;
-        text-transform: uppercase;
-        padding-bottom: 0.7rem;
-    }
-
-    .cover-contents h1 {
-        font-size: 75px;
-        padding-bottom: 0.7rem;
-    }
-
-    .cover-items p,
-    .cover-contents a {
-        text-decoration: none;
-        color: #3C354F;
-        text-align: center;
-        font-size: .9rem;
-        font-weight: 500;
-    }
-
-    .content-buttons {
-        padding-top: 20px;
-    }
-
-    .cover-contents a {
-        padding: 1rem 1.5rem;
-    }
-    .cover {
-        background-image: url("../images/Group\ 14.png");
-        background-position: 100%;
-    }
-    .video-gallery {
-        position: relative;
-        top: 150px;
-    }
-    .video-gallery>h3 {
-        text-align: center;
-        font-size: 28px;
-    }
-    .video-gallery>p {
-        font-size: 14px;
-    }
-    .vid-gal{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        padding: 0;
-        top: 800px;
-    }
-    .play-instantly{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        top: 1700px;
-    }
-} */
 
 
 @media screen and (max-width:425px) {
@@ -640,20 +545,24 @@ footer>.logo>h3 {
     .footer-icons {
         gap: 20px;
     }
-    .footer-menu-link{
+
+    .footer-menu-link {
         font-size: .8rem;
         width: 70px;
     }
-.privacy{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
 
-}
+    .privacy {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
     .privacy-link {
         color: white;
         text-decoration: none;
         font-size: .7rem;
     }
+
     .rights {
         margin-top: 1rem;
         font-size: 8px;
