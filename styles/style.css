@@ -190,7 +190,7 @@ nav {
 }
 
 .top-flow {
-    background-color: #00000067;
+    background-color: #000000c0;
     width: 342px;
     height: 400px;
     text-align: center;
@@ -295,6 +295,7 @@ nav {
     background-color: #FFF;
     border-radius: 50px;
     padding: 10px;
+    border: 1px solid transparent;
 }
 
 .category-img {
