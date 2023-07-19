@@ -11,7 +11,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 2.2rem 15rem;
-    background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
@@ -229,7 +228,7 @@ nav {
 
 }
 
-.play-description{
+.play-description {
     position: relative;
     right: -7.5rem;
 }
@@ -258,32 +257,115 @@ nav {
     line-height: 30px;
 }
 
-.play-images{
+.play-images {
     position: relative;
 }
 
-.play-img-1{
+.play-img-1 {
     position: relative;
     z-index: 1;
 }
-.play-img-2{
+
+.play-img-2 {
     position: absolute;
     bottom: -4.7rem;
     left: -9rem;
     z-index: 3;
 }
 
+/* Category Section Style */
+.categories {
+    padding: 9rem 15rem;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
 
+.categories-1,
+.categories-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 20px;
+}
 
+.category {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #FFF;
+    border-radius: 50px;
+    padding: 10px;
+}
 
+.category-img {
+    height: 60px;
+    width: 60px;
+}
 
+.category p {
+    font-size: 20px;
+    font-weight: 600;
+}
 
+.category:hover {
+    border: 1px solid #FF42A5;
+    color: #F948B2;
+}
 
+/* Footer Style */
+footer {
+    padding: 9rem 15rem;
+    background: #0B0223;
+}
 
+footer>.logo>h3 {
+    color: white;
+}
 
+.footer-nav {
+    list-style: none;
+    margin: 33px auto;
+}
 
+.footer-menu-link {
+    color: white;
+    text-decoration: none;
+}
 
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
 
+.footer-icon>svg {
+    height: 40px;
+    width: 40px;
+}
+
+.privacy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 70px;
+    list-style: none;
+}
+
+.privacy-link {
+    color: white;
+    text-decoration: none;
+}
+
+.rights {
+    text-align: center;
+    color: white;
+    color: rgba(255, 255, 255, 0.60);
+    margin-top: 2rem;
+    font-size: 16px;
+    font-weight: 500;
+}
 
 
 
