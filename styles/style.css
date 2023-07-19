@@ -373,7 +373,11 @@ footer>.logo>h3 {
 
 
 
-@media screen and (max-width: 425px) {
+
+
+
+/* @media screen and (max-width: 425px) {
+
     nav {
         display: flex;
         flex-direction: column;
@@ -458,5 +462,200 @@ footer>.logo>h3 {
         position: relative;
         padding: 0;
         top: 800px;
+    }
+    .play-instantly{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 1700px;
+    }
+} */
+
+
+@media screen and (max-width:425px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding: 1.2rem 8rem;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+
+    .follow-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        border-radius: 8px;
+        background: rgba(11, 2, 35, 0.10);
+        height: 20px;
+        padding: 1rem 1rem;
+    }
+
+    /* Cover Responsive */
+    .cover {
+        background-image: url("../images/Group\ 14.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-y: 260px;
+        padding: 1.2rem 8rem;
+        height: 33.75rem;
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        top: 100px;
+    }
+
+    .cover-contents h3 {
+        font-size: 38px;
+        padding-bottom: 0.5rem;
+    }
+
+    .cover-contents h1 {
+        font-size: 75px;
+        padding-bottom: 0.5rem;
+    }
+
+    .cover-items p,
+    .cover-contents a {
+        font-size: 0.9rem;
+    }
+
+    .cover-contents a {
+        padding: 0.91rem 1.5rem;
+    }
+
+    .cover-img img {
+        width: 300px;
+    }
+
+    .content-buttons {
+        padding-top: 10px;
+    }
+
+    /* Online Games Funny Responsive */
+    .video-gallery>h3 {
+        font-size: 28px;
+    }
+
+    .video-gallery>p {
+        font-size: 14px;
+    }
+
+    .vid-gal {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -20px;
+        top: 750px;
+    }
+
+    .play-instantly {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        left: -200px;
+        top: 1400px;
+        width: 100%;
+    }
+
+    .play-description {
+        position: relative;
+        left: -2.2rem;
+    }
+
+    .play-description h3 {
+        text-align: center;
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .play-description p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .play-images {
+        max-width: 100%;
+    }
+
+    .play-img-1 {
+        width: 80%;
+    }
+
+    .play-img-2 {
+        bottom: -10rem;
+        left: 5rem;
+        width: 50%;
+    }
+
+    .categories {
+        padding: 1.2rem 8rem;
+        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+        position: relative;
+        top: 1450px;
+    }
+
+    .categories-1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: .2rem;
+        margin-top: 10px;
+    }
+
+    .category-img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .category p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    /* footer Responsive Design */
+    footer {
+        padding: 1.2rem 8rem;
+        position: relative;
+        top: 1550px;
+    }
+
+    .footer-nav {
+        /* display: flex;
+        flex-direction: row; */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        position: relative;
+        left: -130px;
+        width: 100%;
+    }
+
+    .footer-icons {
+        gap: 20px;
+    }
+    .footer-menu-link{
+        font-size: .8rem;
+        width: 70px;
+    }
+.privacy{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+    .privacy-link {
+        color: white;
+        text-decoration: none;
+        font-size: .7rem;
+    }
+    .rights {
+        margin-top: 1rem;
+        font-size: 8px;
     }
 }
